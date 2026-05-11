@@ -85,8 +85,8 @@ export function Header() {
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="text-sm font-medium text-muted-foreground border border-yellow-500 px-3 py-2 rounded-md
-                  hover:text-background hover:bg-yellow-500 hover:border-yellow-500
+                  className="text-sm font-medium text-muted-foreground border border-yellow px-3 py-2 rounded-md
+                  hover:text-background hover:bg-yellow-500 hover:border-yellow
                   transition-colors"
                 >
                   {item.name}
@@ -140,8 +140,8 @@ export function Header() {
                         <button
                         onClick={() => setServicesOpen(!servicesOpen)}
                           className="flex items-center justify-between text-sm font-semibold text-muted-foreground
-                          border border-yellow-500 px-3 py-2 rounded-md
-                          hover:text-background hover:bg-yellow-500 hover:border-yellow-500
+                          border border-yellow px-3 py-2 rounded-md
+                          hover:text-background hover:bg-yellow-500 hover:border-yellow
                           transition-colors"
                         >
                           {item.name}
@@ -175,8 +175,8 @@ export function Header() {
                       <Link
                         key={item.name}
                         href={item.href}
-                          className="text-sm font-medium text-muted-foreground border border-yellow-500 px-3 py-2 rounded-md
-                          hover:text-background hover:bg-yellow-500 hover:border-yellow-500
+                          className="text-sm font-medium text-muted-foreground border border-yellow px-3 py-2 rounded-md
+                          hover:text-background hover:bg-yellow-500 hover:border-yellow
                           active:bg-yellow-500 focus:bg-yellow-500
                           transition-colors"
                         onClick={() => setMobileOpen(false)}
