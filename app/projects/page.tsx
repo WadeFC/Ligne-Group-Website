@@ -24,7 +24,7 @@ const projects = [
     category: "Infrastructure",
     description:
       "Comprehensive procurement and supply chain management for a 200km federal highway development connecting three states.",
-    image: "https://images.pexels.com/photos/20852173/pexels-photo-20852173.jpeg",
+    image: "https://images.pexels.com/photos/20582175/pexels-photo-20582175.jpeg",
     metrics: { value: "$45M", label: "Project Value" },
     challenge:
       "Complex logistics across remote terrains with tight delivery schedules.",
