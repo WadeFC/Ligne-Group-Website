@@ -13,7 +13,7 @@ const projects = [
     category: "Infrastructure",
     description:
       "Comprehensive procurement and supply chain management for a 200km federal highway development project.",
-    image: "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80",
+    image: "https://images.pexels.com/photos/20852173/pexels-photo-20852173.jpeg",
     metrics: { value: "$45M", label: "Project Value" },
   },
   {
