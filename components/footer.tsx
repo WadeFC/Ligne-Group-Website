@@ -124,7 +124,7 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-accent shrink-0 mt-0.5" />
                 <span className="text-sm text-primary-foreground/70">
-                  Plot 1234, Maitama District
+                  No 3 Kaltunga, Garki II
                   <br />
                   Abuja, FCT, Nigeria
                 </span>
