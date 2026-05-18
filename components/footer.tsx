@@ -5,8 +5,8 @@ import Image from "next/image";
 const footerNav = {
   company: [
     { name: "About Us", href: "/about" },
-    { name: "Leadership Team", href: "/about#leadership" },
-    { name: "Our Story", href: "/about#story" },
+    { name: "Leadership Team", href: "/" },
+    { name: "Our Story", href: "/" },
     { name: "Careers", href: "/" },
   ],
   services: [
