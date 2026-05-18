@@ -7,7 +7,7 @@ const footerNav = {
     { name: "About Us", href: "/about" },
     { name: "Leadership Team", href: "/about#leadership" },
     { name: "Our Story", href: "/about#story" },
-    { name: "Careers", href: "/careers" },
+    { name: "Careers", href: "/" },
   ],
   services: [
     { name: "Procurement Services", href: "/services/procurement" },
