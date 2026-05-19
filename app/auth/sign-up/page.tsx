@@ -102,7 +102,17 @@ export default function SignUpPage() {
         {/* Logo */}
         <div className="text-center mb-8">
           <Link href="/" className="inline-flex items-center gap-2">
-            <Building2 className="h-10 w-10 text-accent" />
+            {/* <Building2 className="h-10 w-10 text-accent" /> */}
+            <img
+            src="https://github.com/WadeFC/Ligne-Group-Website/blob/main/public/logo.jpg?raw=true"
+            alt="Ligne Group Logo"
+            style={{
+            width: "36%",
+            maxWidth: "40px",
+            height: "auto",
+          borderRadius: "50%",
+            }}
+          />
             <span className="text-2xl font-serif font-bold text-primary-foreground">
               Ligne Group
             </span>
