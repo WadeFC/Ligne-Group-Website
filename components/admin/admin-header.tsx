@@ -6,6 +6,7 @@ import { useRouter, usePathname } from "next/navigation";
 import type { User } from "@supabase/supabase-js";
 import { createClient } from "@/lib/supabase/client";
 import { Button } from "@/components/ui/button";
+import ThemeToggle from "@/components/theme-toggle"
 import {
   DropdownMenu,
   DropdownMenuContent,
