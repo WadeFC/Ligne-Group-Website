@@ -7,7 +7,7 @@
   /* Ligne Group - Corporate Luxe Theme */
   /* Deep Navy Blue as primary, Gold as accent, White/Cream backgrounds */
   --background: oklch(0.99 0.002 90);
-  --foreground: oklch(0.18 0.03 250);
+  --foreground: oklch(22.816% 0.05665 252.761);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.18 0.03 250);
   --popover: oklch(1 0 0);
@@ -48,6 +48,66 @@
   --cream: oklch(0.97 0.005 90);
   --slate: oklch(0.55 0.02 250);
 }
+/* hoilday themes start */
+
+.christmas {
+  --background: oklch(0.15 0.03 20);
+  --foreground: oklch(0.98 0.01 90);
+
+  --card: oklch(0.18 0.03 20);
+  --card-foreground: oklch(0.98 0.01 90);
+
+  --popover: oklch(0.18 0.03 20);
+  --popover-foreground: oklch(0.98 0.01 90);
+
+  --primary: oklch(0.55 0.22 25);
+  --primary-foreground: oklch(1 0 0);
+
+  --secondary: oklch(0.22 0.04 25);
+  --secondary-foreground: oklch(0.98 0.01 90);
+
+  --accent: oklch(0.82 0.18 145);
+  --accent-foreground: oklch(0.12 0.02 20);
+
+  --border: oklch(0.30 0.05 20);
+
+  --gold: oklch(0.85 0.18 95);
+  --gold-dark: oklch(0.75 0.15 95);
+
+  --navy: oklch(0.15 0.03 20);
+  --navy-light: oklch(0.22 0.04 20);
+}
+
+.easter {
+  --background: oklch(0.96 0.02 95);
+  --foreground: oklch(0.20 0.03 280);
+
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.20 0.03 280);
+
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.20 0.03 280);
+
+  --primary: oklch(0.72 0.12 280);
+  --primary-foreground: oklch(1 0 0);
+
+  --secondary: oklch(0.90 0.03 95);
+  --secondary-foreground: oklch(0.20 0.03 280);
+
+  --accent: oklch(0.82 0.10 150);
+  --accent-foreground: oklch(0.20 0.03 280);
+
+  --border: oklch(0.85 0.02 95);
+
+  --gold: oklch(0.88 0.14 90);
+  --gold-dark: oklch(0.78 0.12 90);
+
+  --navy: oklch(0.22 0.04 280);
+  --navy-light: oklch(0.30 0.05 280);
+}
+
+
+/* hoilday themes end */
 
 .dark {
   --background: oklch(0.12 0.02 250);
