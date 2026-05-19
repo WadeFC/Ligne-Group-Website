@@ -11,7 +11,7 @@ const sectors = [
   { name: "Government", icon: Building },
   { name: "Energy", icon: Zap },
   { name: "Construction", icon: HardHat },
-  { name: "Telecommunications", icon: Radio },
+  { name: "Telecom", icon: Radio },
 ];
 
 const certifications = [
@@ -52,7 +52,7 @@ export function TrustIndicators() {
             <h3 className="text-sm font-medium text-muted-foreground uppercase tracking-widest mb-8">
               Sectors We Serve
             </h3>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 gap-1">
               {sectors.map((sector) => (
                 <div
                   key={sector.name}
