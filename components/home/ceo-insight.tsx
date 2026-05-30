@@ -10,7 +10,7 @@ export function CeoInsight() {
           <div className="lg:col-span-4">
             <div className="relative aspect-[3/4] max-w-sm mx-auto lg:mx-0 rounded-lg overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600&q=80"
+                src="https://github.com/WadeFC/Ligne-Group-Website/blob/main/public/2.jpg.jpeg?raw=true"
                 alt="CEO of Ligne Group"
                 fill
                 className="object-cover"
